@@ -1,50 +1,62 @@
-<script>
-    console.log("hello world");//console.log() prints the output on the console on the web
-    console.log((4 + 6 + 9) / 77);
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 
-    let a = 10;
-    let b = 7 * a;
-    console.log(9 * a);
-    console.log(b);
-
-    const max = 57;
-    actual = max - 13;
-    percentage = actual/max;
-
-    console.log(percentage);
-
-    const badString = "string";//the string value without some quotes or with a missing quote will result into an error
-    console.log(badString);
-
-    const bigmouth = 'I\'ve got no right to take my place…';//the \ in front of a quote a midst the sentence prevents error as it indicates that they are part of the text.
-
-    //concatenation
-    const name ="chris";
-    const greetings = `hello, ${name}`;//concatenation is used to join multiple variables together
-    console.log(greetings)
+    <script>
+        console.log("hello world");//console.log() prints the output on the console on the web
+        console.log((4 + 6 + 9) / 77);
     
-    const one = "hello";
-    const two = "how are you";
-    const joined = `${one}, ${two}`;
-    console.log(joined);
-
-    //numbers and strings
-
-    const myString = "123";
-    const myNum = Number(myString);
-    console.log(typeof myNum);
-
-    const myNum2 = 123;
-    const myString2 = myNum2.toString();
-    console.log(typeof myString2); 
-
-
-    //including expressions into the string
-
-    const song = "fight the youth";
-    const score = 9;
-    const highestscore = 10;
-    const output = `i like the song ${song}, I gave it a score of ${score/highestscore* 100}%.`;
-    //output is i like the song fight the youth, I gave it a score of 90%.
-    console.log(output);
-</script>
+        let a = 10;
+        let b = 7 * a;
+        console.log(9 * a);
+        console.log(b);
+    
+        const max = 57;
+        actual = max - 13;
+        percentage = actual/max;
+    
+        console.log(percentage);
+    
+        const badString = "string";//the string value without some quotes or with a missing quote will result into an error
+        console.log(badString);
+    
+        const bigmouth = 'I\'ve got no right to take my place…';//the \ in front of a quote a midst the sentence prevents error as it indicates that they are part of the text.
+    
+        //concatenation
+        const name ="chris";
+        const greetings = `hello, ${name}`;//concatenation is used to join multiple variables together
+        console.log(greetings)
+        
+        const one = "hello";
+        const two = "how are you";
+        const joined = `${one}, ${two}`;
+        console.log(joined);
+    
+        //numbers and strings
+    
+        const myString = "123";
+        const myNum = Number(myString);
+        console.log(typeof myNum);
+    
+        const myNum2 = 123;
+        const myString2 = myNum2.toString();
+        console.log(typeof myString2); 
+    
+    
+        //including expressions into the string
+    
+        const song = "fight the youth";
+        const score = 9;
+        const highestscore = 10;
+        const output = `i like the song ${song}, I gave it a score of ${score/highestscore* 100}%.`;
+        //output is i like the song fight the youth, I gave it a score of 90%.
+        console.log(output);
+    </script>
+    
+</body>
+</html>
